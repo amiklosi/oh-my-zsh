@@ -30,3 +30,6 @@ alias fbu="firebase use"
 alias fbd="firebase deploy"
 alias fbfs="firebase functions:config:set"
 alias fbfg="firebase functions:config:get"
+alias fbsl="firebase serve --only functions"
+alias wavs2mp3="for f in *.wav; do ffmpeg -i $f -vn -ar 44100 -ac 2 -ab 192k -f mp3 ${f:r}.mp3; done"
+
